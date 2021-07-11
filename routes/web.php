@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::resource("list", "ListController");
+
 Route::get('/', function () {
     return view('welcome');
 });
