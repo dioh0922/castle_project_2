@@ -18,4 +18,5 @@ class ListController extends Controller
 			}
 			return view("list/index", ["list" => $select_list]);
 		}
+
 }

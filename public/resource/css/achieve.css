@@ -1,0 +1,36 @@
+html, body
+{
+  width: 100%;
+  height: 100%;
+  background-color: #DDEEDD;
+}
+
+.already
+{
+  width: 6px !important;
+  height: 6px !important;
+  margin: -10px !important;
+  border-radius: 10px;
+  border: 3px solid #fdfdfd;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.8);
+  background-color: #c43;
+  z-index: 20 !important;
+}
+
+.yet
+{
+  width: 6px !important;
+  height: 6px !important;
+  margin: -10px !important;
+  border-radius: 10px;
+  border: 3px solid #fdfdfd;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.8);
+  background-color: #43c;
+  z-index: 20 !important;
+}
+
+.index_btn
+{
+  color: white;
+  background-color: blue;
+}

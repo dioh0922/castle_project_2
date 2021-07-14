@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::resource("list", "ListController");
+Route::resource("map", "MapController");
+Route::get("map/all", "MapController@show");
 
 Route::get('/', function () {
     return view('welcome');
