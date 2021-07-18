@@ -7,7 +7,7 @@
 				<h1>100名城実績ページ</h1>
 			</div>
 			<input type="button" class="btn btn-danger" onclick="location.href='../../index.html'" value="Webアプリメインへ"><?php /* プロジェクト外まで(project/public/にいる) */ ?>
-			<input type="button" class="btn btn-primary" onclick="location.href=''"value="実績記録へ">
+			<a href="./record"><button class="btn btn-primary">実績記録へ</button></a>
 			<a href="./map"><button class="btn btn-success">地図表示</button></a>
 			<br>
 			<div class="table-responsive">
