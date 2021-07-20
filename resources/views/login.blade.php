@@ -2,7 +2,7 @@
 
 @section("content")
 
-  <body>
+  <body style="background-color: #eeeeff;">
     <div class="container">
       <h1>認証ページ</h1>
 

@@ -2,18 +2,16 @@
 
 @section("content")
 
-  <body>
+  <body style="background-color: #eeeeff;">
     <div class="container ">
       <h1>追記ページ</h1>
 
       <p>・城名はセレクトボックスから選択すること</p>
 
-			<?php
-			/*
-      <input type="button" class="btn btn-primary" onclick="location.href='{{action('PagesController@index')}}'"value="一覧表示へ">
-      <input type="button" class="btn btn-info" onclick="location.href='{{action('PagesController@logout')}}'" value="ログアウト">
-			*/
-			?>
+			<a href="./list"><button class="btn btn-primary">一覧表示へ</button></a>
+
+			<a href="./logout"><button class="btn btn-info">ログアウト</button></a>
+
       <form method="post" action="./imgUpload" enctype="multipart/form-data">
         {{csrf_field()}}
         <br>

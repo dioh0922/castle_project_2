@@ -25,4 +25,9 @@ class LoginController extends Controller
 		}
 	}
 
+	public function logout(){
+		session()->forget("login");
+		return redirect("list");
+	}
+
 }
